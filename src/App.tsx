@@ -7,7 +7,7 @@ import i18n from '../i18n.config';
 function App() {
   const [count, setCount] = useState(0)
 
-  const useTranslate = i18n();
+  // const useTranslate = i18n();
 
   return (
     <div className="App">
