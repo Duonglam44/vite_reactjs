@@ -2,8 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
+import i18n from '../i18n.config';
+
 function App() {
   const [count, setCount] = useState(0)
+
+  const useTranslate = i18n();
 
   return (
     <div className="App">
